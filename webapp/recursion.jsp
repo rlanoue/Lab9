@@ -75,10 +75,15 @@
     public int fibonacci(int n)
     {
         //TODO
-        if(n == 1)
+      if(n == 1)
         {
             return 1; 
         }
+        else
+        {
+            return (fibonacci(n - 1) + fibonacci(n - 2)); 
+        }
+        
     }
 
     
@@ -112,16 +117,19 @@
         public Tree(int value)
         {
     	    //TODO
+             
         }
     
         public int getValue()
         {
     	    //TODO
+            return 2; 
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
+            return null; 
         }
     
         public void add(Tree child)
@@ -161,9 +169,11 @@
         if (height == 1) 
         {
     	    //TODO
+            return 7; 
         }
         
     	//TODO
+        return 7; 
     }
 
     /** **********************************************************************
@@ -177,6 +187,7 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+        return 9; 
     }
     
     /** **********************************************************************
