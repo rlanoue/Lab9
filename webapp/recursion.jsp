@@ -190,7 +190,13 @@
     public int treeSum(Tree tree)
     {
     	//TODO
-        return child.getValue() + treeSum(children.remove(child); 
+        int sum = 0; 
+        for(Tree child : tree.getChildren())
+        {
+            sum += treeSum(child); 
+        }
+        return sum;
+        //tree.getValue() + treeSum(); 
     }
     
     /** **********************************************************************
