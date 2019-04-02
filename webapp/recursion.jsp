@@ -136,7 +136,7 @@
         public void add(Tree child)
         {
     	    //TODO
-           // children.add(child); 
+            children.add(child); 
         }
     }
     
@@ -190,7 +190,7 @@
     public int treeSum(Tree tree)
     {
     	//TODO
-        return 
+        return child.getValue() + treeSum(children.remove(child); 
     }
     
     /** **********************************************************************
