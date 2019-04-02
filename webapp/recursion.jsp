@@ -117,6 +117,7 @@
         public Tree(int value)
         {
     	    //TODO
+            this.value = value; 
              
         }
     
