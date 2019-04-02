@@ -118,7 +118,6 @@
         {
     	    //TODO
             this.value = value; 
-             
         }
     
         public int getValue()
